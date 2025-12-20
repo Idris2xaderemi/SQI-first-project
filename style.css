@@ -1,0 +1,707 @@
+
+
+.navbar {
+    background-color: #f2f7f7;
+}
+.sectiona {
+    margin-top: 10% ;
+    /* margin-left: 3%; */
+    gap: 180px;
+}
+
+.dropdown-item img {
+    position: relative;
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.dropbox {
+    margin: 10px;
+    border-radius: 20px;
+    line-height: 0.4;
+    /* padding: 10px; */
+    gap: 3px;
+}
+
+/* .dropdown-menu {
+    display: none;
+} */
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.piggydrop ,
+.safedrop ,
+.targetdrop ,
+.flexNdrop ,
+.flexDdrop ,
+.housedrop
+
+{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dropbox:hover .piggydrop {
+    color: #1f5cb1;
+}
+
+.dropbox:hover .safedrop {
+    color: #2295f1;
+}
+
+.dropbox:hover .targetdrop {
+    color: #069b40;
+}
+
+.dropbox:hover .flexNdrop {
+    color: #ea4fa2;
+}
+
+.dropbox:hover .flexDdrop {
+    color: black;
+}
+
+.dropbox:hover .housedrop {
+    color: #7913e5;
+}
+
+
+.nav-item a {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    /* white-space: nowrap; */
+}
+
+.sectional {
+    /* margin-left: 10%; */
+    margin-bottom: 20px;
+    width: 375px;
+}
+.sectional span:hover {
+    background-color: black;
+}
+.sectional span {
+    margin-bottom: 400px;
+}
+
+.navitem {
+     color: #3f5061;
+     font-weight: 600;
+    
+}
+
+
+
+.sectionaR { 
+  width: 41%;
+  height: 700px;
+    margin-top: -5%;
+  animation: upDown 2s infinite alternate ease-in-out;
+
+
+}
+
+@keyframes upDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+}
+
+
+.sectionaR img {
+    position: absolute;
+      z-index: 1;
+}
+
+
+.image-containe{
+    background-image: url(Media/pexels-ketut-subiyanto-4350099.avif);
+    background-size: cover;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-position: center;
+}
+
+
+.safe {
+    margin-left: -11%;
+    margin-top: 11%;
+    height: 13%;
+    
+}
+
+.target {
+    margin-left: 70%;
+    height: 17.5%;
+    margin-top: 10%;
+}
+
+.flexnaira {
+    height: 14%;
+    margin-top: 45%;
+    margin-left: -10%;
+}
+
+.invest {
+    height: 13%;
+    margin-left: 66%;
+    margin-top: 55%;
+
+}
+
+.piggy {
+    height: 13%;
+    margin-left: -8%;
+    margin-top: 78%;
+}
+
+.house {
+    height: 15%;
+    margin-left: 65%;
+    margin-top: 90%;
+}
+
+.sectionb {
+    margin-left: 7.5%;
+    margin-bottom: 150px;
+
+}
+
+.sectionbr p{
+    font-size: 17px;
+    color: #3d5265;
+}
+.sectionc h1 {
+    font-size: 50px;
+}
+
+.sectionc p {
+    font-size: 25px;
+}
+
+.sectiond , .sectione , .sectionf {
+    gap: 40px;
+    position: relative;
+    margin-bottom: 40px;
+    /* color: #003399; */
+}
+
+.sectiondl{
+      color: #0089ff;
+
+}
+
+.sectiond p , .sectione p , .sectionf p {
+    width: 65%;
+    font-size: 20px;
+    color: #3d4f60;
+
+}
+.sectiondl , .sectiondr {
+    width: 500px;
+    height: 440px;
+    border-radius: 25px;
+    background-color: white;
+    transition: opacity 2s ease;
+    overflow: hidden;
+}
+
+.autosa {
+    font-weight: 650;
+    font-size: 35px;
+}
+
+.pigEnt {
+    font-size: 16px ;
+    font-weight:500 ;
+}
+
+.piggybox img {
+    height: 50%;
+    margin-left: 17.5%;
+    position:absolute;
+    margin-top: -27%;
+    /* opacity: 0; */
+    transform: translate(100%,100%);
+    transition: transform 0.5s ease-out;
+
+}
+
+.sectiondl:hover,
+.sectiondl:hover p, 
+.sectiondl:hover h1,
+.pigEnt:hover,
+.sectiondl:hover img
+{
+    background-color: blue;
+    color: white;
+    /* opacity: 1; */
+    transform: translate(0,0);
+   
+    }
+
+.fixedsa {
+    font-weight: 650;
+    font-size: 35px;
+}
+
+.sectiondr {
+     color: #2295f1;
+}
+
+.sectiondr:hover,
+.sectiondr:hover p, 
+.sectiondr:hover h1,
+.safelock:hover,
+.sectiondr:hover img
+{
+    background-color: #2295f1;
+    color: white;
+    transform: translate(0,0);
+   
+    }
+
+.sectionel , .sectioner {
+    width: 500px;
+    height: 440px;
+    border-radius: 25px;
+    background-color: white;
+    transition: opacity 2s ease;
+    overflow: hidden;
+}
+
+.goalor ,
+.dollars ,
+.emergs
+ {
+    font-weight: 650;
+    font-size: 35px;
+}
+
+
+.sectionel {
+    color: #069b40;
+}
+
+.sectioner {
+    color: #ea4fa2;
+}
+
+.sectionfr {
+    color: #ff783c;
+}
+
+.goalbox img {
+    height: 50%;
+    margin-left: 10%;
+    position:absolute;
+    margin-top: -23%;
+    /* opacity: 0; */
+    transform: translate(100%,100%);
+    transition: transform 0.5s ease-out;
+
+}
+
+
+
+.sectionel:hover,
+.sectionel:hover p, 
+.sectionel:hover h1,
+.targetsa:hover,
+.sectionel:hover img
+{
+    background-color:#069b40;
+    color: white;
+    transform: translate(0,0);
+   
+}
+
+.sectioner:hover,
+.sectioner:hover p, 
+.sectioner:hover h1,
+.flexn:hover,
+.sectioner:hover img
+{
+    background-color:#ea4fa2;
+    color: white;
+    transform: translate(0,0);
+   
+}
+
+.sectionfl ,
+.sectionfr {
+    width: 500px;
+    height: 440px;
+    border-radius: 25px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.sectionfl:hover,
+.sectionfl:hover p, 
+.sectionfl:hover h1,
+.flexd:hover,
+.sectionfl:hover img
+{
+    background-color: black;
+    color: white;
+    transform: translate(0,0);
+   
+}
+
+.sectionfr:hover,
+.sectionfr:hover p, 
+.sectionfr:hover h1,
+.moneyh:hover,
+.sectionfr:hover img
+{
+    background-color:#ff783c;
+    color: white;
+    transform: translate(0,0);
+   
+}
+
+.goalbox img {
+    height: 50%;
+    margin-left: 10%;
+    position:absolute;
+    margin-top: -23%;
+    /* opacity: 0; */
+    transform: translate(100%,100%);
+    transition: transform 0.5s ease-out;
+
+}
+
+.dollarbox img {
+    height: 50%;
+    margin-left: 15%;
+    position:absolute;
+    margin-top: -20%;
+    /* opacity: 0; */
+    transform: translate(105%,105%);
+    transition: transform 0.5s ease-out;
+
+}
+
+.housebox img {
+    height: 50%;
+    margin-left: 12%;
+    position:absolute;
+    margin-top: -20%;
+    /* opacity: 0; */
+    transform: translate(105%,105%);
+    transition: transform 0.5s ease-out;
+
+}
+/* .sectiondl p:hover , .sectiondl h1:hover {
+    color: white;
+} */
+
+.sectiong {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.sectiong h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.sectiong p {
+    font-size: 27.5px;
+    font-weight: 400;
+}
+
+.sectiongcon {
+    height: 550px;
+    background-color: #7913e5;
+    border-radius: 25px;
+    margin: 0% 4%;
+}
+
+.gconmove {
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+}
+
+.gconmove img {
+    position: absolute;
+    margin-top: -23.2%;
+    margin-left: 34%;
+    height: 65%;
+}
+
+
+.gconmove p {
+    width: 30%;
+    margin-top: 3%;
+}
+
+.gconmove span{
+    padding-top: 100px;
+}
+
+.sectionh {
+    padding-top: 5%;
+    margin-bottom: 15%;
+}
+
+.sectionh h1 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+.sectionh p {
+    width: 60%;
+    justify-self: center;
+    margin: 2% 0;
+}
+
+.sectionh iframe {
+    border: 10px solid white;
+    border-radius: 20px;
+    margin: 20px auto;
+    display: flex;
+    margin-top: 6%;
+    /* margin-bottom: 8%; */
+}
+
+.sectioniscroll {
+    display: border-box;
+    border: 10px solid black;
+    border-bottom: none;
+    height: 400px;
+    width: 400px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+
+.sectionir {
+    margin-top: 10%;
+}
+
+.sectionil {
+    width: 800px;
+}
+
+.sectionirimg img
+{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    position: relative;
+    margin-left: -20px;
+    cursor: pointer;
+}
+
+.sectionir button {
+    border: 1px solid #dddddd;
+}
+
+.sectionirimg img:hover {
+    z-index: 100;
+    transform: scale(1.05)
+
+}
+
+.sectionirimg span {
+    background-color: white;
+    /* height: 65px;
+    width: 65px; */
+    padding: 22px 18px;
+    position: relative;
+    margin-left: -20px ;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.testimonial {
+    overflow: hidden;
+    height: 450px;
+    width: 100%;
+    position: relative;
+    border-color: #0c1926;
+    border-style: solid;
+    border-radius: 25px 25px 0 0;
+    border-width: 10px 10px 0 10px;
+    color: #3d4f60;
+}
+
+.infinite-scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    animation: scrollList 30s linear infinite;
+}
+
+.infiniteimg {
+    object-fit: contain;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.sectionj {
+    padding-bottom: 5%;
+}
+
+.sectionj img {
+    height: 40px;
+    margin-bottom: 10%;
+
+} 
+
+.sectionj h5{
+   padding-top: 2%;
+}
+
+.sectionk a{
+    text-decoration: none;
+    color: black;
+}
+.sectionk span {
+    margin-left: 6%;
+    font-weight: 200;
+}
+.sectionk {
+    padding-bottom: 10%;
+}
+
+footer p {
+    font-size: 12px;
+    width: 55%;
+    color: #889293;
+}
+
+footer h6 {
+     font-size: 13px;
+    color: #1f5cb1;
+    
+}
+
+
+@keyframes scrollList {
+    0% { transform: translateY(0);}
+    100% {transform: translateY(-50%);}
+}
+
+.box-pointer {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media (max-width:768px) {
+    .sectiona {
+        margin-top: 25%;
+    }
+    
+    .sectionaR {
+        width: 75%;
+        margin-top: 15%;
+    }
+   .sectionbr {
+    text-align: center;
+   }
+   .sectional {
+    width: 90%;
+   }
+   .sectionbl img{
+    margin:0;
+    margin-left: 200%;
+   }
+   .gconmove img{
+    display: none;
+   }
+
+   .gconmove p{
+    width: 90%;
+   }
+
+   .gconmove {
+    padding: 20%;
+   }
+
+   .sectionh iframe {
+    width: auto;
+}
+
+    .tesmot {
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .sectioni {
+        margin: auto;
+        justify-content: center;
+    }
+
+}
+
+
+
+@media (max-width:426px) {
+    .sectiona {
+        margin-top: 40%;
+    }
+    .sectionaR {
+        width: 80%;
+        height: cover;
+        margin-top: 15%;
+
+    }
+
+    .sectionaR img {
+        height: 8%;
+    }
+
+    .sectionbl img {
+        margin: 0;
+    }
+    
+    .sectionbl img{
+    margin:0;
+    margin-left: 200%;
+   }
+
+  .sectionbl img{
+    margin:0;
+    margin-left: 100%;
+   }
+
+    .sectionh iframe {
+        width: auto;
+    }
+
+    footer p {
+        width: 80%;
+    }
+
+    .tesmot {
+        text-align: center;
+        margin: auto;
+
+    }
+
+.piggytech {
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+
+    /* .sectionk:first-child {
+        width: 80%;
+    } */
+}
+
