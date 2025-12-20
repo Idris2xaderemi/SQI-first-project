@@ -654,7 +654,8 @@ footer h6 {
 
 @media (max-width:426px) {
     .sectiona {
-        margin-top: 40%;
+        margin-top: 25%;
+        padding: 2%;
     }
     .sectionaR {
         width: 80%;
