@@ -3,11 +3,7 @@
 .navbar {
     background-color: #f2f7f7;
 }
-.sectiona {
-    margin-top: 10% ;
-    /* margin-left: 3%; */
-    gap: 180px;
-}
+
 
 .dropdown-item img {
     position: relative;
@@ -40,8 +36,8 @@
 .housedrop
 
 {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .dropbox:hover .piggydrop {
@@ -68,24 +64,11 @@
     color: #7913e5;
 }
 
-
 .nav-item a {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: 17px;
     /* white-space: nowrap; */
-}
-
-.sectional {
-    /* margin-left: 10%; */
-    margin-bottom: 20px;
-    width: 375px;
-}
-.sectional span:hover {
-    background-color: black;
-}
-.sectional span {
-    margin-bottom: 400px;
 }
 
 .navitem {
@@ -96,13 +79,74 @@
 
 
 
+
+
+.sectiona {
+    margin-top: 10% ;
+    /* margin-left: 3%; */
+    gap: 15%;
+}
+
+.sectional {
+    /* margin-left: 10%; */
+    margin-top: 5%;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.sectional h1 {
+    font-size: 48px;
+    word-spacing: -8px;
+}
+
+.sectional p{
+    word-spacing: -2px;
+    color: #3d4f60;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sectional a {
+    font-size: 16px;
+}
+.sectional span:hover {
+    background-color: black;
+}
+
+.sectional span:hover .flower {
+   fill: #0089ff;
+}
+
+.sectional span:hover .book-icon>path {
+   fill: white;
+}
+.sectional span {
+    margin-bottom: 400px;
+    background-color: #0089ff;
+}
+
+.flower {
+    transform-origin: center;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {   
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+
+     }
+}
+
+
 .sectionaR { 
-  width: 41%;
+  width: 42%;
   height: 700px;
-    margin-top: -5%;
+  margin-top: -5%;
   animation: upDown 2s infinite alternate ease-in-out;
-
-
 }
 
 @keyframes upDown {
@@ -113,7 +157,6 @@
     transform: translateY(-30px);
   }
 }
-
 
 .sectionaR img {
     position: absolute;
@@ -169,8 +212,11 @@
     margin-top: 90%;
 }
 
+
+
+
+
 .sectionb {
-    margin-left: 7.5%;
     margin-bottom: 150px;
 
 }
@@ -187,16 +233,17 @@
     font-size: 25px;
 }
 
+
+
+
+
+
+
 .sectiond , .sectione , .sectionf {
     gap: 40px;
     position: relative;
     margin-bottom: 40px;
     /* color: #003399; */
-}
-
-.sectiondl{
-      color: #0089ff;
-
 }
 
 .sectiond p , .sectione p , .sectionf p {
@@ -205,6 +252,19 @@
     color: #3d4f60;
 
 }
+
+
+.sectiondl{
+      color: blue;
+
+}
+
+ 
+.sectiondr {
+     color: #2295f1;
+}
+
+
 .sectiondl , .sectiondr {
     width: 500px;
     height: 440px;
@@ -219,9 +279,30 @@
     font-size: 35px;
 }
 
-.pigEnt {
+.hoverline {
     font-size: 16px ;
     font-weight:500 ;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 1%;
+}
+
+.hoverline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 10px;
+    z-index: -1;
+   opacity: 0.7;
+    background-color: white;
+    transition: width 0.4s ease;
+
+}
+
+.hoverline:hover::after {
+    width: 100%;
 }
 
 .piggybox img {
@@ -237,37 +318,37 @@
 
 .sectiondl:hover,
 .sectiondl:hover p, 
-.sectiondl:hover h1,
-.pigEnt:hover,
 .sectiondl:hover img
 {
     background-color: blue;
     color: white;
-    /* opacity: 1; */
     transform: translate(0,0);
    
-    }
+ }
+
 
 .fixedsa {
     font-weight: 650;
     font-size: 35px;
 }
 
-.sectiondr {
-     color: #2295f1;
-}
+
 
 .sectiondr:hover,
 .sectiondr:hover p, 
-.sectiondr:hover h1,
-.safelock:hover,
 .sectiondr:hover img
 {
     background-color: #2295f1;
     color: white;
     transform: translate(0,0);
    
-    }
+}
+
+
+
+
+
+
 
 .sectionel , .sectioner {
     width: 500px;
@@ -617,9 +698,16 @@ footer h6 {
    .sectional {
     width: 90%;
    }
-   .sectionbl img{
-    margin:0;
-    margin-left: 200%;
+
+   /* .sectionb {
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+   } */
+  
+   .sectionc {
+    width: auto;
+    padding: 2%;
    }
    .gconmove img{
     display: none;
@@ -648,40 +736,40 @@ footer h6 {
         justify-content: center;
     }
 
+    .sectionc {
+    width: auto;
+    padding: auto;
+   }
+
 }
 
 
 
 @media (max-width:426px) {
     .sectiona {
-        margin-top: 25%;
+        margin-top: 20%;
         padding: 2%;
     }
+
+    .sectional {
+        width: auto;
+        margin: auto;
+    }
     .sectionaR {
-        width: 80%;
+        width: 75%;
         height: cover;
         margin-top: 15%;
 
     }
 
     .sectionaR img {
-        height: 8%;
+        height: auto;
+        width: 40%;
     }
 
-    .sectionbl img {
-        margin: 0;
-    }
-    
-    .sectionbl img{
+    .sectionbl {
     margin:0;
-    margin-left: 200%;
    }
-
-  .sectionbl img{
-    margin:0;
-    margin-left: 100%;
-   }
-
     .sectionh iframe {
         width: auto;
     }
